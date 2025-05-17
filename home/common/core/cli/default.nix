@@ -29,7 +29,7 @@
   ];
 
   home.packages = with pkgs; [
-    inputs.neovim.packages.${system}.default
+    helix
     aria2
     bc
     coreutils-full
@@ -54,6 +54,7 @@
     p7zip
     pciutils
     procs
+    ripgrep
     shell-gpt
     serpl
     skim

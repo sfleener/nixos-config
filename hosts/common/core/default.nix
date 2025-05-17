@@ -13,7 +13,7 @@
     ./nix.nix
     ./pipewire.nix
     ./services.nix
-    ./zsh.nix
+    ./fish.nix
   ];
 
   nixpkgs = {

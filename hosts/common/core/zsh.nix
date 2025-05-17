@@ -1,11 +1,11 @@
 #
-# This is a basic enablement of zsh at the host level as a safe guard
+# This is a basic enablement of fish at the host level as a safe guard
 #
 {pkgs, ...}: {
-  programs.zsh = {
+  programs.fish = {
     enable = true;
     enableCompletion = true;
   };
-  users.defaultUserShell = pkgs.zsh;
-  environment.shells = with pkgs; [zsh];
+  users.defaultUserShell = pkgs.fish;
+  environment.shells = with pkgs; [fish];
 }

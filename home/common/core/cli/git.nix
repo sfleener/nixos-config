@@ -1,10 +1,10 @@
 {
   programs.git = {
     enable = true;
-    userEmail = "k.dileep1994@gmail.com";
-    userName = "Dileep Kishore";
+    userEmail = "me@scottfleener.com";
+    userName = "Scott Fleener";
     extraConfig = {
-      core.editor = "nvim";
+      core.editor = "hx";
       init.defaultBranch = "main";
       user.signingkey = "~/.ssh/id_ed25519";
       gpg = {format = "ssh";};

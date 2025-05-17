@@ -27,12 +27,6 @@
       inputs.nixpkgs-stable.follows = "nixpkgs";
     };
 
-    # neovim
-    neovim = {
-      url = "github:dileep-kishore/nyanvim";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     # hyprland
     hyprland = {
       url = "github:hyprwm/hyprland";
@@ -90,25 +84,10 @@
     # NOTE: home-manager is also imported as a module within nixosConfigurations
     nixosConfigurations = {
       # Main desktop
-      tsuki = lib.nixosSystem {
+      nixos = lib.nixosSystem {
         specialArgs = {inherit inputs outputs;};
         modules = [
-          ./hosts/tsuki
-          home-manager.nixosModules.home-manager
-          ({config, ...}: {
-            home-manager.extraSpecialArgs = {
-              inherit inputs outputs;
-              inherit (config.networking) hostName;
-            };
-          })
-        ];
-      };
-
-      # Home Laptop
-      nixos-xps = lib.nixosSystem {
-        specialArgs = {inherit inputs outputs;};
-        modules = [
-          ./hosts/nixos-xps
+          ./hosts/nixos
           home-manager.nixosModules.home-manager
           ({config, ...}: {
             home-manager.extraSpecialArgs = {
