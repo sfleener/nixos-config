@@ -4,7 +4,6 @@
 {pkgs, ...}: {
   programs.fish = {
     enable = true;
-    enableCompletion = true;
   };
   users.defaultUserShell = pkgs.fish;
   environment.shells = with pkgs; [fish];
