@@ -32,12 +32,12 @@
   boot.loader.grub.useOSProber = true;
   boot.loader.grub.configurationLimit = 15;
   boot.loader.systemd-boot.configurationLimit = 15;
-  boot.supportedFilesystems = ["ntfs"];
+  boot.supportedFilesystems = ["ntfs" "ext4"];
 
   # amd gpu support for kernel
   boot.initrd.kernelModules = ["amdgpu"];
 
-  networking.hostName = "tsuki"; # Define your hostname.
+  networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   hardware.graphics = {
@@ -59,11 +59,10 @@
   # Configure keymap in X11
   services.xserver = {
     enable = true;
-    xkb.options = "ctrl:nocaps";
     xkb.layout = "us";
     xkb.variant = "";
     displayManager.gdm.enable = true;
   };
 
-  system.stateVersion = "23.11";
+  system.stateVersion = "24.11";
 }
