@@ -13,6 +13,7 @@
     ./common/optional/apps/kitty
     ./common/optional/apps/ghostty
     ./common/optional/apps/ulauncher
+    ./common/optional/apps/discord.nix
     ./common/optional/apps/slack.nix
     ./common/optional/apps/code.nix
     ./common/optional/apps/rofi

@@ -9,12 +9,12 @@
     protonvpn-gui
     protonvpn-cli
     appimage-run
-    brave
     brightnessctl
     # capacities-latest
     clickup-latest
     code-cursor
     eog
+    firefox
     gparted
     heptabase
     kdePackages.wacomtablet

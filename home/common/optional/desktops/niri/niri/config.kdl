@@ -8,7 +8,6 @@ input {
     }
     touchpad {
         tap
-        natural-scroll
     }
     mouse {
 
@@ -64,7 +63,7 @@ output "Dell Inc. DELL P2715Q 0WTY26AL35PL" {
     position x=4480 y=0
 }
 environment {
-    ELECTRON_OZONE_PLATFORM_HINT "auto"
+    ELECTRON_OZONE_PLATFORM_HINT "x11"
     DISPLAY ":0"
 }
 // Settings that influence how windows are positioned and sized.
@@ -158,7 +157,6 @@ window-rule {
 // floating
 window-rule {
     match app-id="firefox$" title="^Picture-in-Picture$"
-    match app-id="brave-browser$" title="^Picture-in-Picture$"
     match app-id="org.kde.polkit-kde-authentication-agent-1"
     open-floating true
 }
@@ -184,7 +182,7 @@ binds {
         show-hotkey-overlay
     }
     Mod+Return {
-        spawn "ghostty"
+        spawn "kitty"
     }
     Mod+Shift+Return {
         spawn "kitty" "--class" "scratchpad"
@@ -472,13 +470,13 @@ binds {
     Mod+C {
         center-column
     }
-    Mod+Plus {
+    Mod+Minus {
         set-column-width "-10%"
     }
     Mod+Equal {
         set-column-width "+10%"
     }
-    Mod+Shift+Plus {
+    Mod+Shift+Minus {
         set-window-height "-10%"
     }
     Mod+Shift+Equal {

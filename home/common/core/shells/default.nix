@@ -43,7 +43,7 @@
     EDITOR = "nvim";
     USE_EDITOR = "$EDITOR";
     VISUAL = "$EDITOR";
-    BROWSER = "brave";
+    BROWSER = "firefox";
     NIXOS_OZONE_WL = "1";
   };
 }

@@ -124,7 +124,6 @@
             "code" = "<span foreground='#89b4fa'>󰨞 Code</span>";
             "Cursor" = "<span foreground='#89b4fa'>󰨞 Cursor</span>";
             # browsers
-            "brave-browser" = "<span foreground='#89b4fa'> Brave</span>";
             "firefox" = "<span foreground='#89b4fa'> Firefox</span>";
             "zen" = "<span foreground='#89b4fa'> Zen</span>";
             # gnome/gtk
@@ -235,7 +234,6 @@
           dynamic-len = 30;
           player-icons = {
             chromium = " ";
-            brave-browser = " ";
             default = " ";
             firefox = " ";
             kdeconnect = " ";

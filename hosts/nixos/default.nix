@@ -17,6 +17,7 @@
       # Optional configs
       # ../common/optional/hyprland.nix
       ../common/optional/niri.nix
+      ../common/optional/1password.nix
 
       # User config
       ../common/users/scott
