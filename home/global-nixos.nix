@@ -13,8 +13,6 @@
     ./common/optional/apps/kitty
     ./common/optional/apps/ghostty
     ./common/optional/apps/ulauncher
-    ./common/optional/apps/discord.nix
-    ./common/optional/apps/slack.nix
     ./common/optional/apps/code.nix
     ./common/optional/apps/rofi
     ./common/optional/apps/wofi
@@ -33,6 +31,6 @@
   home = {
     username = "scott";
     homeDirectory = "/home/${config.home.username}";
-    stateVersion = "24.11";
+    stateVersion = "";
   };
 }

@@ -69,7 +69,7 @@
 
 ### Requirements
 
-- NixOS 24.11 or Home-manager
+- NixOS  or Home-manager
 - Patience
 - Knowledge
 - Disk space

@@ -552,7 +552,7 @@
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixos-24.11",
+        "ref": "nixos-",
         "repo": "nixpkgs",
         "type": "github"
       }

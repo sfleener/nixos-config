@@ -111,6 +111,7 @@ spawn-at-startup "wl-clip-persist --clipboard regular"
 spawn-at-startup "bash" "-c" "python ~/.config/niri/scripts/blur-wallpaper.py"
 spawn-at-startup "bash" "-c" "python ~/.config/niri/scripts/change-wallpaper.py"
 spawn-at-startup "wl-clip-persist --clipboard regular"
+spawn-at-startup "1password --silent"
 prefer-no-csd
 screenshot-path "~/Pictures/Screenshots/Screenshot_%Y-%m-%d_%H-%M-%S.png"
 // Animation settings.

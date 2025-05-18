@@ -5,8 +5,7 @@
 
   home.packages = with pkgs; [
     age
-    # gitkraken
-    # pandoc
     sops
+    tailscale
   ];
 }
