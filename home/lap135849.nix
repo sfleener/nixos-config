@@ -18,7 +18,6 @@
       ./common/optional/apps/wezterm/config.nix
       ./common/optional/apps/kitty/config.nix
       ./common/optional/apps/ghostty/config.nix
-      ./common/optional/apps/slack.nix
       # NOTE: espanso disabled because it's not working on wayland
       # ./common/optional/misc/espanso.nix
     ]
@@ -27,6 +26,6 @@
   home = {
     username = "g8k";
     homeDirectory = "/home/${config.home.username}";
-    stateVersion = "23.11";
+    stateVersion = "24.11";
   };
 }

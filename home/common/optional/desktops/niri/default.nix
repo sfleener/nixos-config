@@ -18,7 +18,6 @@
     playerctl
     pipewire
     hyprpicker
-    python312Packages.toggl-cli
   ];
 
   home.file.".config/niri" = {

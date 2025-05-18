@@ -27,11 +27,11 @@
   services.swww.enable = true;
 
   # Use Gnome Keyring as SSH agent
-  services.gnome-keyring = {
-    enable = true;
-    components = ["pkcs11" "secrets" "ssh"];
-  };
-  home.sessionVariables.SSH_AUTH_SOCK = "$XDG_RUNTIME_DIR/keyring/ssh";
+  # services.gnome-keyring = {
+  #   enable = true;
+  #   components = ["pkcs11" "secrets" "ssh"];
+  # };
+  # home.sessionVariables.SSH_AUTH_SOCK = "$XDG_RUNTIME_DIR/keyring/ssh";
 
   # OSD for volume, brightness changes
   services.swayosd.enable = true;
