@@ -6,6 +6,7 @@
     nerd-fonts.victor-mono
     nerd-fonts.fantasque-sans-mono
     nerd-fonts.caskaydia-cove
+    nerd-fonts.jetbrains-mono
     lilex
     font-awesome
     noto-fonts

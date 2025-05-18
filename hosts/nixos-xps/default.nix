@@ -17,10 +17,9 @@
       # Optional configs
       # ../common/optional/hyprland.nix
       ../common/optional/niri.nix
-      ../common/optional/wacom.nix
 
       # User config
-      ../common/users/dileep
+      ../common/users/scott
     ]
     ++ (builtins.attrValues outputs.nixosModules);
 

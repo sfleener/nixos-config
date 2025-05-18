@@ -17,11 +17,9 @@
     firefox
     gparted
     heptabase
-    kdePackages.wacomtablet
     libgcc
     libreoffice-fresh
     libsForQt5.okular
-    libwacom
     lshw
     morgen-latest
     nautilus

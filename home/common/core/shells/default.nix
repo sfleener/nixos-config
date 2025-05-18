@@ -10,8 +10,8 @@
     clear = "clear -x";
     cls = "clear";
     # vim alias
-    v = "nvim";
-    nv = "nvim";
+    v = "hx";
+    nv = "hx";
     # grep
     grep = "grep --color=auto";
     # python

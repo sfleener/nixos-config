@@ -4,7 +4,6 @@
   ...
 }: {
   imports = [
-    ./aider
     ./atuin.nix
     ./bat
     ./btop
@@ -56,7 +55,6 @@
     pciutils
     procs
     ripgrep
-    shell-gpt
     serpl
     skim
     tealdeer
